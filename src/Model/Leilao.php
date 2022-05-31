@@ -38,6 +38,7 @@ class Leilao
      */
     private function ehDoUltimoUsuario($lance) : bool
     {
-        return $lance->getUsuario() == $this->lances[count($this->lances) - 1]->getUsuario();
+        $ultimoLance = $this->lances[count($this->lances) - 1];
+        return $lance->getUsuario() == $ultimoLance->getUsuario();
     }
 }
