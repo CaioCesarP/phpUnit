@@ -1,0 +1,1089 @@
+Script started on 2022-05-26 08:54:53-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ tet[Kst
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ php test
+Could not open input file: test
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ php test[4Ptestcode .vendor/bin/phpunit --colors  test
+PHPUnit 9.5.20 #StandWithUkraine
+
+Cannot open file "test".
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  test[C[C[C[C[C[C[C[C[Cphp test[K[4Ptestphp test[25@vendor/bin/phpunit --colors [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kvendor/bin/phpunit --colors  test
+PHPUnit 9.5.20 #StandWithUkraine
+
+Cannot open file "test".
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 8 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 8 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 8 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[31;1mE[0m......                                                             7 / 7 (100%)
+
+Time: 00:00.005, Memory: 4.00 MB
+
+There was 1 error:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLancesEmOrdemCrescente
+TypeError: Argument 1 passed to Alura\Leilao\Service\Avaliador::avalia() must be an instance of Alura\Leilao\Model\Leilao, null given, called in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php on line 63
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/src/Service/Avaliador.php:13
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:63
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 7[0m[37;41m, Assertions: 7[0m[37;41m, Errors: 1[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[31;1mE[0m......                                                             7 / 7 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+There was 1 error:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLancesEmOrdemCrescente
+TypeError: Argument 1 passed to Alura\Leilao\Service\Avaliador::avalia() must be an instance of Alura\Leilao\Model\Leilao, null given, called in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php on line 26
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/src/Service/Avaliador.php:13
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:26
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 7[0m[37;41m, Assertions: 7[0m[37;41m, Errors: 1[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests[H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[31;1mE[0m......                                                             7 / 7 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+There was 1 error:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLancesEmOrdemCrescente
+TypeError: Argument 1 passed to Alura\Leilao\Service\Avaliador::avalia() must be an instance of Alura\Leilao\Model\Leilao, null given, called in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php on line 26
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/src/Service/Avaliador.php:13
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:26
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 7[0m[37;41m, Assertions: 7[0m[37;41m, Errors: 1[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ code .
+^L]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ code .
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ code .vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.038, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 8 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.002, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 8 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.045, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 8 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.046, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 11 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 11 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.018, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 11 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHP Fatal error:  Uncaught ParseError: syntax error, unexpected ';', expecting ']' in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:205
+Stack trace:
+#0 /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/Util/FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/Framework/TestSuite.php(401): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/Framework/TestSuite.php(529): PHPUnit\Framework\TestSuite->addTestFile()
+#3 /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/Runner/BaseTestRunner.php(98): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/TextUI/Command.php(120): PHPUnit\Runner\BaseTestRunner->getTest()
+#5 /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpuni in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/TextUI/Command.php on line 98
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[31;1mE[0m......                                                             7 / 7 (100%)
+
+Time: 00:00.064, Memory: 6.00 MB
+
+There was 1 error:
+
+1) Error
+The data provider specified for Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances is invalid.
+Data set #0 is invalid.
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 7[0m[37;41m, Assertions: 10[0m[37;41m, Errors: 1[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[31;1mE[0m.....                                                              6 / 6 (100%)
+
+Time: 00:00.063, Memory: 6.00 MB
+
+There was 1 error:
+
+1) Error
+The data provider specified for Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances is invalid.
+Data set #0 is invalid.
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 6[0m[37;41m, Assertions: 9[0m[37;41m, Errors: 1[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+........                                                            8 / 8 (100%)
+
+Time: 00:00.080, Memory: 4.00 MB
+
+[30;42mOK (8 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.059, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 11 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+...[31;1mE[0m.                                                               5 / 5 (100%)
+
+Time: 00:00.061, Memory: 4.00 MB
+
+There was 1 error:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances
+ArgumentCountError: Too few arguments to function Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances(), 0 passed in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/Framework/TestCase.php on line 1545 and exactly 1 expected
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:32
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 5[0m[37;41m, Assertions: 8[0m[37;41m, Errors: 1[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.065, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 11 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[31;1mE[0m[31;1mE[0m.                                                                 3 / 3 (100%)
+
+Time: 00:00.025, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Error
+The data provider specified for Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances is invalid.
+Data set #0 is invalid.
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Error
+The data provider specified for Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances is invalid.
+Data set #0 is invalid.
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 3[0m[37;41m, Assertions: 5[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[31;1mE[0m[31;1mE[0m.                                                                 3 / 3 (100%)
+
+Time: 00:00.002, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Error
+The data provider specified for Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances is invalid.
+Data set #0 is invalid.
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Error
+The data provider specified for Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances is invalid.
+Data set #0 is invalid.
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 3[0m[37;41m, Assertions: 5[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[31;1mE[0m[31;1mE[0m.                                                                 3 / 3 (100%)
+
+Time: 00:00.003, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Error
+The data provider specified for Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances is invalid.
+Data set #0 is invalid.
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Error
+The data provider specified for Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances is invalid.
+Data set #0 is invalid.
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 3[0m[37;41m, Assertions: 5[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.......                                                             7 / 7 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (7 tests, 11 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+......[41;37mF[0m[41;37mF[0m[41;37mF[0m                                                           9 / 9 (100%)
+
+Time: 00:00.004, Memory: 4.00 MB
+
+There were 3 failures:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #0 (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 2500.0 matches expected 2800.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:71
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #1 (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 2500.0 matches expected 2800.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:71
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+3) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #2 (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 2500.0 matches expected 2800.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:71
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mFAILURES![0m
+[37;41mTests: 9[0m[37;41m, Assertions: 12[0m[37;41m, Failures: 3[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+......[41;37mF[0m[41;37mF[0m[41;37mF[0m                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+There were 3 failures:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #0 (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 2500.0 matches expected 2800.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:71
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #1 (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 2500.0 matches expected 2800.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:71
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+3) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #2 (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 2500.0 matches expected 2800.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:71
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mFAILURES![0m
+[37;41mTests: 9[0m[37;41m, Assertions: 12[0m[37;41m, Failures: 3[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 21 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 21 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+...[31;1mE[0m...[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m                                                      12 / 12 (100%)
+
+Time: 00:00.004, Memory: 4.00 MB
+
+There were 6 errors:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set #3 (Alura\Leilao\Service\Avaliador Object (...))
+TypeError: Argument 1 passed to Alura\Leilao\Service\Avaliador::avalia() must be an instance of Alura\Leilao\Model\Leilao, instance of Alura\Leilao\Service\Avaliador given, called in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php on line 27
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/src/Service/Avaliador.php:13
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:27
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances with data set #3 (Alura\Leilao\Service\Avaliador Object (...))
+TypeError: Argument 1 passed to Alura\Leilao\Service\Avaliador::avalia() must be an instance of Alura\Leilao\Model\Leilao, instance of Alura\Leilao\Service\Avaliador given, called in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php on line 47
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/src/Service/Avaliador.php:13
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:47
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+3) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #0 (Alura\Leilao\Model\Leilao Object (...))
+ArgumentCountError: Too few arguments to function Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores(), 1 passed in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/Framework/TestCase.php on line 1545 and exactly 2 expected
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:62
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+4) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #1 (Alura\Leilao\Model\Leilao Object (...))
+ArgumentCountError: Too few arguments to function Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores(), 1 passed in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/Framework/TestCase.php on line 1545 and exactly 2 expected
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:62
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+5) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #2 (Alura\Leilao\Model\Leilao Object (...))
+ArgumentCountError: Too few arguments to function Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores(), 1 passed in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/Framework/TestCase.php on line 1545 and exactly 2 expected
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:62
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+6) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #3 (Alura\Leilao\Service\Avaliador Object (...))
+ArgumentCountError: Too few arguments to function Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores(), 1 passed in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/src/Framework/TestCase.php on line 1545 and exactly 2 expected
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:62
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 12[0m[37;41m, Assertions: 6[0m[37;41m, Errors: 6[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+...[31;1mE[0m...[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m                                                      12 / 12 (100%)
+
+Time: 00:00.004, Memory: 4.00 MB
+
+There were 6 errors:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set #3 (Alura\Leilao\Service\Avaliador Object (...))
+TypeError: Argument 1 passed to Alura\Leilao\Service\Avaliador::avalia() must be an instance of Alura\Leilao\Model\Leilao, instance of Alura\Leilao\Service\Avaliador given, called in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php on line 27
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/src/Service/Avaliador.php:13
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:27
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances with data set #3 (Alura\Leilao\Service\Avaliador Object (...))
+TypeError: Argument 1 passed to Alura\Leilao\Service\Avaliador::avalia() must be an instance of Alura\Leilao\Model\Leilao, instance of Alura\Leilao\Service\Avaliador given, called in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php on line 47
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/src/Service/Avaliador.php:13
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:47
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+3) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #0 (Alura\Leilao\Model\Leilao Object (...))
+Undefined variable: leiloeiro
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:65
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+4) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #1 (Alura\Leilao\Model\Leilao Object (...))
+Undefined variable: leiloeiro
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:65
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+5) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #2 (Alura\Leilao\Model\Leilao Object (...))
+Undefined variable: leiloeiro
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:65
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+6) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #3 (Alura\Leilao\Service\Avaliador Object (...))
+Undefined variable: leiloeiro
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:65
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 12[0m[37;41m, Assertions: 6[0m[37;41m, Errors: 6[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+...[31;1mE[0m......                                                        10 / 10 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+There was 1 error:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set #3 (Alura\Leilao\Service\Avaliador Object (...))
+TypeError: Argument 1 passed to Alura\Leilao\Service\Avaliador::avalia() must be an instance of Alura\Leilao\Model\Leilao, instance of Alura\Leilao\Service\Avaliador given, called in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php on line 27
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/src/Service/Avaliador.php:13
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:27
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 10[0m[37;41m, Assertions: 12[0m[37;41m, Errors: 1[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+...[31;1mE[0m......                                                        10 / 10 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+There was 1 error:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set #3 (Alura\Leilao\Service\Avaliador Object (...))
+TypeError: Argument 1 passed to Alura\Leilao\Service\Avaliador::avalia() must be an instance of Alura\Leilao\Model\Leilao, instance of Alura\Leilao\Service\Avaliador given, called in /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php on line 27
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/src/Service/Avaliador.php:13
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:27
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 10[0m[37;41m, Assertions: 12[0m[37;41m, Errors: 1[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+There were 9 errors:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set #0 (Alura\Leilao\Model\Leilao Object (...))
+Error: Call to a member function avalia() on null
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:29
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set #1 (Alura\Leilao\Model\Leilao Object (...))
+Error: Call to a member function avalia() on null
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:29
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+3) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set #2 (Alura\Leilao\Model\Leilao Object (...))
+Error: Call to a member function avalia() on null
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:29
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+4) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances with data set #0 (Alura\Leilao\Model\Leilao Object (...))
+Error: Call to a member function avalia() on null
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:45
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+5) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances with data set #1 (Alura\Leilao\Model\Leilao Object (...))
+Error: Call to a member function avalia() on null
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:45
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+6) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMenorValorDeLances with data set #2 (Alura\Leilao\Model\Leilao Object (...))
+Error: Call to a member function avalia() on null
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:45
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+7) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #0 (Alura\Leilao\Model\Leilao Object (...))
+Error: Call to a member function avalia() on null
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:61
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+8) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #1 (Alura\Leilao\Model\Leilao Object (...))
+Error: Call to a member function avalia() on null
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:61
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+9) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #2 (Alura\Leilao\Model\Leilao Object (...))
+Error: Call to a member function avalia() on null
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:61
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 9[0m[37;41m, Assertions: 0[0m[37;41m, Errors: 9[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 4.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --colors  tests[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+  Warning - The configuration file did not pass validation!
+  The following problems have been detected:
+
+  Line 3:
+  - Element 'testsuite': The attribute 'name' is required but missing.
+
+  Test results may not be as expected.
+
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.012, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+  Warning - The configuration file did not pass validation!
+  The following problems have been detected:
+
+  Line 3:
+  - Element 'testsuite': The attribute 'name' is required but missing.
+
+  Test results may not be as expected.
+
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+  Warning - The configuration file did not pass validation!
+  The following problems have been detected:
+
+  Line 3:
+  - Element 'testsuite': The attribute 'name' is required but missing.
+
+  Test results may not be as expected.
+
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.003, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.007, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+......[41;37mF[0m[41;37mF[0m[41;37mF[0m                                                           9 / 9 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+There were 3 failures:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #0 (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 1800.0 is greater than 2000.0.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:68
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #1 (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 1800.0 is greater than 2000.0.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:68
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+3) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOsTresMaioresValores with data set #2 (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 1800.0 is greater than 2000.0.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:68
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mFAILURES![0m
+[37;41mTests: 9[0m[37;41m, Assertions: 12[0m[37;41m, Failures: 3[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 12 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 21 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 21 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+[41;37mF[0m[41;37mF[0m[41;37mF[0m......                                                           9 / 9 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+There were 3 failures:
+
+1) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set "Ordem-Crescente" (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 2500.0 matches expected 1000.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:35
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set "Ordem-Decrescente" (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 2500.0 matches expected 1000.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:35
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+3) Alura\Leilao\Tests\Service\AvaliadorTest::testAvaliadorDeveEncontrarOMaiorValorDeLances with data set "Fora-de-Ordem" (Alura\Leilao\Model\Leilao Object (...))
+Failed asserting that 2500.0 matches expected 1000.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Service/AvaliadorTest.php:35
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mFAILURES![0m
+[37;41mTests: 9[0m[37;41m, Assertions: 21[0m[37;41m, Failures: 3[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+.........                                                           9 / 9 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (9 tests, 21 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+[31;1mE[0m[31;1mE[0m.........                                                       11 / 11 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #0 (2, Alura\Leilao\Model\Leilao Object (...), array(1000, 2000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #1 (1, Alura\Leilao\Model\Leilao Object (...), array(5000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 11[0m[37;41m, Assertions: 23[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+[31;1mE[0m[31;1mE[0m.........                                                       11 / 11 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #0 (2, Alura\Leilao\Model\Leilao Object (...), array(1000, 2000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #1 (1, Alura\Leilao\Model\Leilao Object (...), array(5000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 11[0m[37;41m, Assertions: 23[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+[31;1mE[0m[31;1mE[0m.........                                                       11 / 11 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #0 (2, Alura\Leilao\Model\Leilao Object (...), array(1000, 2000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #1 (1, Alura\Leilao\Model\Leilao Object (...), array(5000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 11[0m[37;41m, Assertions: 23[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+[31;1mE[0m[31;1mE[0m.........                                                       11 / 11 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #0 (2, Alura\Leilao\Model\Leilao Object (...), array(1000, 2000))
+Trying to access array offset on value of type int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #1 (1, Alura\Leilao\Model\Leilao Object (...), array(5000))
+Trying to access array offset on value of type int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 11[0m[37;41m, Assertions: 23[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+[31;1mE[0m[31;1mE[0m.........                                                       11 / 11 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #0 (2, Alura\Leilao\Model\Leilao Object (...), array(1000, 2000))
+Trying to access array offset on value of type int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #1 (1, Alura\Leilao\Model\Leilao Object (...), array(5000))
+Trying to access array offset on value of type int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 11[0m[37;41m, Assertions: 23[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+[31;1mE[0m[31;1mE[0m.........                                                       11 / 11 (100%)
+
+Time: 00:00.006, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #0 (2, Alura\Leilao\Model\Leilao Object (...), array(1000, 2000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #1 (1, Alura\Leilao\Model\Leilao Object (...), array(5000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 11[0m[37;41m, Assertions: 23[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+[31;1mE[0m[31;1mE[0m.........                                                       11 / 11 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+There were 2 errors:
+
+1) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #0 (2, Alura\Leilao\Model\Leilao Object (...), array(1000, 2000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+2) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set #1 (1, Alura\Leilao\Model\Leilao Object (...), array(5000))
+Error: Call to a member function getValor() on int
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mERRORS![0m
+[37;41mTests: 11[0m[37;41m, Assertions: 23[0m[37;41m, Errors: 2[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+...........                                                       11 / 11 (100%)
+
+Time: 00:00.005, Memory: 6.00 MB
+
+[30;42mOK (11 tests, 26 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+...........                                                       11 / 11 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (11 tests, 26 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --migrate-configuration
+PHPUnit 9.5.20 #StandWithUkraine
+
+Created backup:         /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/phpunit.xml.bak
+Migrated configuration: /home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/phpunit.xml
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit --migrate-configuration[K
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+...........                                                       11 / 11 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (11 tests, 26 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ [H[2J]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+...........                                                       11 / 11 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+[30;42mOK (11 tests, 26 assertions)[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto-Alura/phpUnit[00m$ vendor/bin/phpunit
+PHPUnit 9.5.20 [44m#StandWith[0m[43mUkraine[0m
+
+[41;37mF[0m...........                                                      12 / 12 (100%)
+
+Time: 00:00.004, Memory: 6.00 MB
+
+There was 1 failure:
+
+1) Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoNaoDeveReceberLancesRepetidos
+Failed asserting that actual size 2 matches expected size 1.
+
+/home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/tests/Model/LeilaoTest.php:23
+phpvfscomposer:///home/edmilson-itarget/Documentos/Projeto-Alura/phpUnit/vendor/phpunit/phpunit/phpunit:97
+
+[37;41mFAILURES![0m
+[37;41mTests: 12[0m[37;41m, Assertions: 27[0m[37;41m, Failures: 1[0m[37;41m.[0m
+]0;edmilson-itarget@edmilsonitarget-System-Product-Name: ~/Documentos/Projeto-Alura/phpUnit[01;32medmilson-itarget@edmilsonitarget-System-Product-Name[00m:[01;34m~/Documentos/Projeto
