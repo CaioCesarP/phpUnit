@@ -12,6 +12,13 @@ class Avaliador
 
     public function avalia(Leilao $leilao): void
     {
+        if ($leilao->estaFinalizado()) {
+            throw new \DomainException("Leilão já finalizado");
+        }
+        //leilão vazio
+        if (empty($leilao->getLances())) {
+            throw new \DomainException("Não é possível avaliar leilão vazio");
+        }
         //para cada lance do $leilao dado como $lance
         foreach ($leilao->getLances() as $lance) {
             //pega o maior valor e armazena em $maiorValor;

@@ -1,5 +1,6 @@
 Leilao (Alura\Leilao\Tests\Model\Leilao)
  [x] Leilao nao deve receber lances repetidos
+ [x] Leilao nao deve aceitar mais de cinco lances por usuario
  [x] Leilao deve receber lances with data set "Leilão-com-dois-lances"
  [x] Leilao deve receber lances with data set "Leilão-com-um-lance"
 
@@ -13,4 +14,6 @@ Avaliador (Alura\Leilao\Tests\Service\Avaliador)
  [x] Avaliador deve encontrar os tres maiores valores with data set "Ordem-Crescente"
  [x] Avaliador deve encontrar os tres maiores valores with data set "Ordem-Decrescente"
  [x] Avaliador deve encontrar os tres maiores valores with data set "Fora-de-Ordem"
+ [x] Avaliador vazio nao pode ser avaliado
+ [x] Leilao finalizado nao pode ser avaliado
 
